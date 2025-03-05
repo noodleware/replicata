@@ -1,0 +1,19 @@
+{
+    "name": "noodleware/replicata",
+    "description": "A Laravel package for deep cloning Eloquent models and their nested relationships.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Noodleware\\Replicata\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.2",
+        "illuminate/database": "^11.0|^12.0"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.21"
+    }
+}
